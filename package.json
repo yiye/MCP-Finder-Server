@@ -1,0 +1,32 @@
+{
+  "name": "mcp-finder-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-client": "node test-client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiye/MCP-Finder-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiye/MCP-Finder-Server/issues"
+  },
+  "homepage": "https://github.com/yiye/MCP-Finder-Server#readme",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "@types/node": "^22.14.0",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
