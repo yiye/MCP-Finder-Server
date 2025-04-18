@@ -1,5 +1,7 @@
 # MCP Finder Server
 
+[![smithery badge](https://smithery.ai/badge/@yiye/mcp-finder-server)](https://smithery.ai/server/@yiye/mcp-finder-server)
+
 A Model Context Protocol (MCP) server that allows AI models to search for other MCP server implementations listed in the [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) repository.
 
 ## Features
@@ -10,6 +12,15 @@ A Model Context Protocol (MCP) server that allows AI models to search for other 
 
 ## Installation
 
+### Installing via Smithery
+
+To install mcp-finder-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@yiye/mcp-finder-server):
+
+```bash
+npx -y @smithery/cli install @yiye/mcp-finder-server --client claude
+```
+
+### Manual Installation
 1. Clone this repository
 2. Install dependencies:
 ```bash
